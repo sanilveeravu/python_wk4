@@ -16,17 +16,84 @@ After the initial analysis, there was a report of academic dishonesty with evide
 
 1. District Summary
 
-When     |  District Summary
+When     |  District Summary Without Rounding
 :-------------------------:|:-------------------------:
 Before Correction   |  ![district_summary_df_not_rounded](Resources/district_summary_df_not_rounded.png)
 After Correction   |  ![corrected_district_summary_df_not_rounded](Resources/corrected_district_summary_df_not_rounded.png)
 
+When     |  District Summary Rounded
+:-------------------------:|:-------------------------:
+Before Correction   |  ![district_summary_df_rounded](Resources/district_summary_df_rounded.png)
+After Correction   |  ![corrected_district_summary_df_rounded](Resources/corrected_district_summary_df_rounded.png)
+
+
 2. School Summary
+
+When     |  Thomas High School Summary
+:-------------------------:|:-------------------------:
+Before Correction   |  ![ths_summary_old_df](Resources/ths_summary_old_df.png)
+After Correction Without Exclusion  |  ![corrected_ths_summary_before_exclusion_df](Resources/corrected_ths_summary_before_exclusion_df.png)
+After Correction With Exclusion  |  ![corrected_ths_summary_after_exclusion_df](Resources/corrected_ths_summary_after_exclusion_df.png)
+
 3. The top 5 / bottom 5 performing schools, based on the overall passing rate
-4. The average math and reading score for each grade level from each school (3 pt)
+
+- Top 5
+
+When     |  Top Schools
+:-------------------------:|:-------------------------:
+Before Correction   |  ![top_schools](Resources/top_schools.png)
+After Correction   |  ![corrected_top_schools](Resources/corrected_top_schools.png)
+
+- Bottom 5
+
+When     |  Bottom Schools
+:-------------------------:|:-------------------------:
+Before Correction   |  ![bottom_schools](Resources/bottom_schools.png)
+After Correction   |  ![corrected_tbottom_schools](Resources/corrected_bottom_schools.png)  
+
+4. The average math and reading score for each grade level from each school
+
+Type |Before Correction     |  After Correction
+:-------------------------:|:-------------------------:|:-------------------------:
+Math Scores | ![math_scores_by_grade_not_rounded](Resources/math_scores_by_grade_not_rounded.png)    | ![corrected_math_scores_by_grade_not_rounded](Resources/corrected_math_scores_by_grade_not_rounded.png)
+Reading Scores | ![reading_scores_by_grade_not_rounded](Resources/reading_scores_by_grade_not_rounded.png)    | ![corrected_reading_scores_by_grade_not_rounded](Resources/corrected_reading_scores_by_grade_not_rounded.png)
+
+
 5. The scores by school spending per student
+
+When     | Scores by School Spending Without Rounding
+:-------------------------:|:-------------------------:
+Before Correction   |  ![spending_summary_df_not_rounded](Resources/spending_summary_df_not_rounded.png)
+After Correction   |  ![corrected_spending_summary_df_not_rounded](Resources/corrected_spending_summary_df_not_rounded.png)
+
+When     |  Scores by School Spending Rounded
+:-------------------------:|:-------------------------:
+Before Correction   |  ![spending_summary_df_rounded](Resources/spending_summary_df_rounded.png)
+After Correction   |  ![corrected_spending_summary_df_rounded](Resources/corrected_spending_summary_df_rounded.png)
+
 6. The scores by school size 
+
+When     | Scores by School Size Without Rounding
+:-------------------------:|:-------------------------:
+Before Correction   |  ![school_size_summary_not_rounded](Resources/school_size_summary_not_rounded.png)
+After Correction   |  ![corrected_school_size_summary_formatted_not_rounded](Resources/corrected_school_size_summary_formatted_not_rounded.png)
+
+When     |  Scores by School Size Rounded
+:-------------------------:|:-------------------------:
+Before Correction   |  ![school_size_summary_rounded](Resources/school_size_summary_rounded.png)
+After Correction   |  ![corrected_school_size_summary_formatted_rounded](Resources/corrected_school_size_summary_formatted_rounded.png)
+
 7. The scores by school type
+
+When     | Scores by School Type Without Rounding
+:-------------------------:|:-------------------------:
+Before Correction   |  ![school_type_summary_not_rounded](Resources/school_type_summary_not_rounded.png)
+After Correction   |  ![corrected_school_type_summary_not_rounded](Resources/corrected_school_type_summary_not_rounded.png)
+
+When     |  Scores by School Type Rounded
+:-------------------------:|:-------------------------:
+Before Correction   |  ![school_type_summary_rounded](Resources/school_type_summary_not_rounded.png)
+After Correction   |  ![corrected_school_type_summary_rounded](Resources/corrected_school_type_summary_not_rounded.png)
 
 ---
 
