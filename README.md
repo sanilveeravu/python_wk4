@@ -107,10 +107,10 @@ After Correction   |  ![corrected_school_type_summary_rounded](Resources/correct
 
 Below are the summarized changes after the correction of removing 9th grade scores from the analysis
 
-- Overall passing percentage decreased from 65% to 64.9% at District Level
-- The overall school performance reduced by 0.32% making it closed to the 3rd place school but still continued at 2nd Place
-- Math and Reading Scores for Thomas High School 9th grade was completely removed.
-- There were only very minimal changes for scores related to
+1. Overall passing percentage decreased from 65% to 64.9% at District Level
+2. The overall school performance reduced by 0.32% making it closed to the 3rd place school but still continued at 2nd Place
+3. Math and Reading Scores for Thomas High School 9th grade was completely removed.
+4. There were only very minimal changes for scores related to
     - School Spending Per Student under $630 to $645
     - School Size of medium
     - School Type of charter
