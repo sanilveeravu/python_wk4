@@ -29,27 +29,23 @@ After Correction   |  ![corrected_district_summary_df_rounded](Resources/correct
 
 2. School Summary
 
-When     |  Thomas High School Summary
-:-------------------------:|:-------------------------:
-Before Correction   |  ![ths_summary_old_df](Resources/ths_summary_old_df.png)
-After Correction Without Exclusion  |  ![corrected_ths_summary_before_exclusion_df](Resources/corrected_ths_summary_before_exclusion_df.png)
-After Correction With Exclusion  |  ![corrected_ths_summary_after_exclusion_df](Resources/corrected_ths_summary_after_exclusion_df.png)
+- Thomas High School Summary Before Correction 
+![ths_summary_old_df](Resources/ths_summary_old_df.png)
+- Thomas High School Summary After Correction Without Exclusion ![corrected_ths_summary_before_exclusion_df](Resources/corrected_ths_summary_before_exclusion_df.png)
+- Thomas High School Summary After Correction With Exclusion ![corrected_ths_summary_after_exclusion_df](Resources/corrected_ths_summary_after_exclusion_df.png)
 
 3. The top 5 / bottom 5 performing schools, based on the overall passing rate
 
-- Top 5
+- Top 5 Schools Before Correction
+![top_schools](Resources/top_schools.png)
+- Top 5 Schools After Correction
+![corrected_top_schools](Resources/corrected_top_schools.png)
 
-When     |  Top Schools
-:-------------------------:|:-------------------------:
-Before Correction   |  ![top_schools](Resources/top_schools.png)
-After Correction   |  ![corrected_top_schools](Resources/corrected_top_schools.png)
+- Bottom 5 Schools Before Correction
+![bottom_schools](Resources/bottom_schools.png)
+- Bottom 5 Schools After Correction
+![corrected_tbottom_schools](Resources/corrected_bottom_schools.png) 
 
-- Bottom 5
-
-When     |  Bottom Schools
-:-------------------------:|:-------------------------:
-Before Correction   |  ![bottom_schools](Resources/bottom_schools.png)
-After Correction   |  ![corrected_tbottom_schools](Resources/corrected_bottom_schools.png)  
 
 4. The average math and reading score for each grade level from each school
 
@@ -92,8 +88,8 @@ After Correction   |  ![corrected_school_type_summary_not_rounded](Resources/cor
 
 When     |  Scores by School Type Rounded
 :-------------------------:|:-------------------------:
-Before Correction   |  ![school_type_summary_rounded](Resources/school_type_summary_not_rounded.png)
-After Correction   |  ![corrected_school_type_summary_rounded](Resources/corrected_school_type_summary_not_rounded.png)
+Before Correction   |  ![school_type_summary_rounded](Resources/school_type_summary_rounded.png)
+After Correction   |  ![corrected_school_type_summary_rounded](Resources/corrected_school_type_summary_rounded.png)
 
 ---
 
