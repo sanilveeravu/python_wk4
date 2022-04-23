@@ -16,9 +16,10 @@ After the initial analysis, there was a report of academic dishonesty with evide
 
 1. District Summary
 
-District Summary Before Correction     |  District Summary After Correction
+When     |  District Summary
 :-------------------------:|:-------------------------:
-![district_summary_df_not_rounded](Resources/district_summary_df_not_rounded.png)   |  ![corrected_district_summary_df_not_rounded](Resources/corrected_district_summary_df_not_rounded.png)
+Before Correction   |  ![district_summary_df_not_rounded](Resources/district_summary_df_not_rounded.png)
+After Correction   |  ![corrected_district_summary_df_not_rounded](Resources/corrected_district_summary_df_not_rounded.png)
 
 2. School Summary
 3. The top 5 / bottom 5 performing schools, based on the overall passing rate
