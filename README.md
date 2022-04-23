@@ -14,7 +14,14 @@ After the initial analysis, there was a report of academic dishonesty with evide
 
 ## School District Performance Results
 
-1. District Summary
+Below are the details of the analysis on how the metrics were impacted with the exclusion of the 9th grade assessments in Thomas High School. To represent the changes below its classified as before and after correction showing how the metrics looked before and how it changed after removing 9th grade scores.
+
+1. District Summary: Though there were changes the affect due the the change were minimal. Details as below:
+    - Average math score reduced from 78.9 to 79
+    - Average reading score remained at 81.9
+    - Percentage passing math decreased from 75% to 74.8%
+    - Percentage passing reading decreased from 86% to 85.7%
+    - Overall passing percentage decreased from 65% to 64.9%
 
 When     |  District Summary Without Rounding
 :-------------------------:|:-------------------------:
@@ -27,14 +34,17 @@ Before Correction   |  ![district_summary_df_rounded](Resources/district_summary
 After Correction   |  ![corrected_district_summary_df_rounded](Resources/corrected_district_summary_df_rounded.png)
 
 
-2. School Summary
-
-- Thomas High School Summary Before Correction 
+2. School Summary: As this is per school, there was no change to the scores for other schools. Below are the details of the changes that happened in Thomas High School.
+- Below is the summary before any changes were made
 ![ths_summary_old_df](Resources/ths_summary_old_df.png)
-- Thomas High School Summary After Correction Without Exclusion ![corrected_ths_summary_before_exclusion_df](Resources/corrected_ths_summary_before_exclusion_df.png)
-- Thomas High School Summary After Correction With Exclusion ![corrected_ths_summary_after_exclusion_df](Resources/corrected_ths_summary_after_exclusion_df.png)
+- After excluding Thomas High School 9th graders there was a signifcant dip in the scores as the passing percentage was based on the students including 9th graders. Here for example the overall passing percent dipped from 90.9% to 65.1%
+ ![corrected_ths_summary_before_exclusion_df](Resources/corrected_ths_summary_before_exclusion_df.png)
+- To fix that the student count of Thomas High School, for the passing percentage the 9th grade count was skipped to get the below result. The change is now minimal like overall passing percentage shows it reduced from 90.9% to 90.6%. 
+![corrected_ths_summary_after_exclusion_df](Resources/corrected_ths_summary_after_exclusion_df.png)
+- Below is the updated overall school summary
+![full_school_summary](Resources/full_school_summary.png)
 
-3. The top 5 / bottom 5 performing schools, based on the overall passing rate
+3. With the updated scores below were top and bottom schools. Though there was a dip in overall score for Thomas high school it still maintained its second place. The difference between the 2nd place and 3rd place reduced from 0.35% to 0.03%.
 
 - Top 5 Schools Before Correction
 ![top_schools](Resources/top_schools.png)
@@ -47,7 +57,7 @@ After Correction   |  ![corrected_district_summary_df_rounded](Resources/correct
 ![corrected_tbottom_schools](Resources/corrected_bottom_schools.png) 
 
 
-4. The average math and reading score for each grade level from each school
+4. The average math and reading score for each grade level from each school did not change at all except for the fact that 9th grade thomas high school is marked as NaN now.
 
 Type |Before Correction     |  After Correction
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -55,7 +65,7 @@ Math Scores | ![math_scores_by_grade_not_rounded](Resources/math_scores_by_grade
 Reading Scores | ![reading_scores_by_grade_not_rounded](Resources/reading_scores_by_grade_not_rounded.png)    | ![corrected_reading_scores_by_grade_not_rounded](Resources/corrected_reading_scores_by_grade_not_rounded.png)
 
 
-5. The scores by school spending per student
+5. Scores by school spending per student: This also had minimal impact. As Thomas High School in the range of $631 to $645, there were small changes to the scores for this group. While at a rounded level there was no difference, there were minimal changes to the scores that can be seen with higher precision.
 
 When     | Scores by School Spending Without Rounding
 :-------------------------:|:-------------------------:
@@ -67,7 +77,7 @@ When     |  Scores by School Spending Rounded
 Before Correction   |  ![spending_summary_df_rounded](Resources/spending_summary_df_rounded.png)
 After Correction   |  ![corrected_spending_summary_df_rounded](Resources/corrected_spending_summary_df_rounded.png)
 
-6. The scores by school size 
+6. Scores by school size: This also had minimal impact. As Thomas High School size was classified as Medium, there were small changes to the scores for this group. While at a rounded level there was no difference, there were minimal changes to the scores that can be seen with higher precision.
 
 When     | Scores by School Size Without Rounding
 :-------------------------:|:-------------------------:
@@ -79,7 +89,7 @@ When     |  Scores by School Size Rounded
 Before Correction   |  ![school_size_summary_rounded](Resources/school_size_summary_rounded.png)
 After Correction   |  ![corrected_school_size_summary_formatted_rounded](Resources/corrected_school_size_summary_formatted_rounded.png)
 
-7. The scores by school type
+7. Scores by school type: This also had minimal impact. As Thomas High School type was classified as Charter, there were small changes to the scores for this group. While at a rounded level there was no difference, there were minimal changes to the scores that can be seen with higher precision.
 
 When     | Scores by School Type Without Rounding
 :-------------------------:|:-------------------------:
@@ -95,3 +105,12 @@ After Correction   |  ![corrected_school_type_summary_rounded](Resources/correct
 
 ## School District Performance Summary
 
+Below are the summarized changes after the correction of removing 9th grade scores from the analysis
+
+- Overall passing percentage decreased from 65% to 64.9% at District Level
+- The overall school performance reduced by 0.32% making it closed to the 3rd place school but still continued at 2nd Place
+- Math and Reading Scores for Thomas High School 9th grade was completely removed.
+- There were only very minimal changes for scores related to
+    - School Spending Per Student under $630 to $645
+    - School Size of medium
+    - School Type of charter
